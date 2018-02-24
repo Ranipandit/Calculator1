@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>calculator</title>
+	<style type="text/css">
+		body{
+			background-image: url(images.jpeg);
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+		.formstyle{
+			opacity: 1;
+			width: 350px;    
+			height: 485px;
+			border:20px solid #0c41d8;
+			margin: auto;
+			/*background-color: #9999e0;*/
+			margin-top: 90px;
+		}
+		.padding{
+			width: 327px;
+			padding: 25px 0px;
+		}
+		input{
+			width: 100px;
+            margin: 6px;
+            padding: 13px;
+            font-size: 20px;
+           /* background-color: blue;*/
+		}
+		input:hover{
+			background-color: #9e9e9eb0;
+			transition: 3s;
+		}
+		.width{
+			width:332px;
+			/*padding: 16px 0px;*/
+			font-size: 25px;
+		}
+	</style>
+</head>
+<body>
+<div class="formstyle">
+	<form name="forms">
+		<input type="text" name="answer" class="padding">
+
+		<br>
+		<input type="button" value =" 1 " onclick = "forms.answer.value += '1' ">
+		<input type="button" value =" 2 " onclick = "forms.answer.value += '2' ">
+		<input type="button" value =" 3 " onclick = "forms.answer.value += '3' ">
+
+		<br>
+		<input type="button" value =" 4 " onclick = "forms.answer.value += '4' ">
+		<input type="button" value =" 5 " onclick = "forms.answer.value += '5' ">
+		<input type="button" value =" 6 " onclick = "forms.answer.value += '6' ">
+
+		<br>
+		<input type="button" value =" 7 " onclick = "forms.answer.value += '7' ">
+		<input type="button" value =" 8 " onclick = "forms.answer.value += '8' ">
+		<input type="button" value =" 9 " onclick = "forms.answer.value += '9' ">
+
+		<br>
+		<input type="button" value =" +  " onclick = "forms.answer.value += '+' ">
+		<input type="button" value =" 0  " onclick = "forms.answer.value += '0' ">
+		<input type="button" value =" -  " onclick = "forms.answer.value += '-' ">
+
+		<br>
+		<input type="button" value =" *  " onclick = "forms.answer.value += '*' ">
+		<input type="button" value =" /  " onclick = "forms.answer.value += '/' ">
+		<input type="button" value =" =  " onclick = "forms.answer.value = eval(forms.answer.value)">
+
+		<br>
+		<input type="button" value=" Clear All " onclick = "forms.answer.value = '' " class="width">
+		<!--input type="button" value=" X " onclick = "forms.answer.value -= '' " class="width"-->
+	</form>
+</div>
+</body>
+<script type="text/javascript">
+	
+</script>
+</html>
