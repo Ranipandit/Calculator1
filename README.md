@@ -1,3 +1,3 @@
 # Calculator
 
-Perform basic math opretions example Division,Multiplication,Subraction,Addition
+Perform basic math calculations example Division,Multiplication,Subraction,Addition
